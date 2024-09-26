@@ -15,7 +15,6 @@ var (
 )
 
 func main() {
-
 	p := tea.NewProgram(
 		ui.NewModel(logger),
 		tea.WithAltScreen(),
